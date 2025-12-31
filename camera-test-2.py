@@ -1,5 +1,5 @@
 import cv2
-cap = cv2.VideoCapture(0)  # Use the correct video device index (0, 1, etc.)
+cap = cv2.VideoCapture(0, cv2.CAP_V4L2)  # Use the correct video device index (0, 1, etc.)
 
 ret, frame = cap.read()
 if ret:
