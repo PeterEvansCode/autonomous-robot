@@ -1,3 +1,5 @@
+# go to http://<runtime_device_ip>:5000/video_feed
+
 from flask import Flask, Response
 import cv2
 
