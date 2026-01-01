@@ -1,3 +1,6 @@
 # virtual environments
 venv/
 .venv/
+
+# flashing software for linux
+*.AppImage
